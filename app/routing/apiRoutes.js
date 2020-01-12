@@ -28,7 +28,7 @@ module.exports = (app) => {
         console.log(`\n\r\n==========Name: ${userName}\nUser Score: ${userScores}\n\r\n==========`);
 
         let sum = matchScore.reduce((a, b) => a + b, 0)
-        console.log(`/n/r/n==========Sum of user's score: ${sum}\nBest match score difference: ${match.difference}/n/r/n==========`);
+        console.log(`\n\r\n==========Sum of user's score: ${sum}\nBest match score difference: ${match.difference}\n\r\n==========`);
 
         for (let i = 0; i < friends.length; i++) {
 
