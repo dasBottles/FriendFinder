@@ -1,7 +1,7 @@
 let friends = [
     {
         name: 'Wraith',
-        photo: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjewPyQ2_3mAhXRLH0KHf4PB3gQjRx6BAgBEAQ&url=https%3A%2F%2Ffirstplayer.fandom.com%2Fwiki%2FWraith_(Apex_Legends)&psig=AOvVaw0ewoys_ArTUt8hmHj_tUtp&ust=1578906428506877',
+        photo: 'https://dreamteam.gg/blog/wp-content/uploads/2019/03/1170x658_Apex_Legends__Wraith_Guide_1553528324747_HkgpWUOI_V.png',
         score: [5, 1, 4, 4, 5, 1, 2, 5, 4, 5]
     }, {
         name: 'Mirage',
