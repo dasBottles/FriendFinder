@@ -67,7 +67,7 @@
       </select>
 
       <h3><strong>Question 3</strong></h3>
-      <h4>I am team player</h4>
+      <h4>I'm a team player</h4>
       <select data-placeholder="" class="chosen-select" id="q3">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -218,7 +218,9 @@
         let currentURL = window.location.origin;
         $.post(currentURL + "/api/friends", userData, function (data) {
           $("#matchName").text(data.name);
-          $("#matchImg").attr("src", data.photo);
+          if (data.photo) {
+            $("#matchImg").attr("src", data.photo);
+          }
           // $("#matchImg").addClass('img-fluid');
 
           $("#resultsModal").modal("toggle");
